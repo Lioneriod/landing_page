@@ -82,8 +82,11 @@ h1{
     font-weight: 900;
 }
 
-.neco1{
-
+.neco1 img{
+    display: flex;
+    flex: 1 1 auto;
+    max-height: 400px;
+    width: auto;
 }
 
 
