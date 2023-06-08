@@ -1,11 +1,13 @@
 body{
     font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
+/*the body has a natural margin within it, so we remove it*/
     margin: 0;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/*Also, we need to remove the styles and bullets from lists*/
 ul,
 ol{
     padding: 0;
@@ -14,7 +16,6 @@ ol{
     justify-content: center;
     gap: 24px;
 }
-
 li,
 a{
     list-style-type: none;
@@ -23,6 +24,7 @@ a{
     color: #cecece;
 }
 
+/*To keep all the contents inside the body with some space but keeping their backgrounds*/
 .header,
 .sign-up,
 .info,
@@ -72,7 +74,7 @@ a{
 }
 
 .welcome{
-    
+
 }
 
 h1{
@@ -80,6 +82,9 @@ h1{
     font-weight: 900;
 }
 
+.neco1{
+
+}
 
 
 .quote{
