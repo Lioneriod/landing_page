@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul,
+ol{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+li,
+a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #cecece;
+}
+
+.header,
+.sign-up,
+.info,
+.quote,
+.sign-up_2,
+.footer {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.header,
+.footer,
+.sign-up{
+    background-color: #1F2937;
+}
+
+.header{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header,
+.sign-up_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{    
+    flex: 1;
+}
+
+.logo img{
+    max-width: 50px;
+    height: auto;
+}
+
+.logo,
+.links{
+    display: flex;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome{
+    
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+.quote{
+
+}
+
+.sign-up_2{
+    flex: 1 1 auto;
+    margin: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
