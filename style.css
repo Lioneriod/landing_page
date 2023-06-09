@@ -31,7 +31,7 @@ a{
 .sign-up,
 .info,
 .quote,
-.sign-up_2,
+.sign-up2,
 .footer {
     padding-left: 300px;
     padding-right: 300px;
@@ -110,7 +110,7 @@ h3{
     gap: 22px;
 }
 
-button{
+.buttons button{
     border: 2px solid  #ffffff;
     border-radius: 20px;
     padding: 8px;
@@ -237,12 +237,25 @@ button{
     border-radius: 100%;
 }
 
-.sign-up_2{
+.sign-up2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
     flex: 1 1 auto;
-    margin: 50px;
+    margin: 20px 40px;
     padding: 20px 40px;
     border-radius: 10px;
     background-color: #4a4e51; 
+}
+
+.sign-up2_text{
+
+}
+
+.sign-up2 button{
+
 }
 
 .footer{
