@@ -21,7 +21,7 @@ a{
     list-style-type: none;
     text-decoration: none;
     font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #f0f0f0;
+    color: #b68272;
 }
 
 /*To keep all the contents inside the body with some space but keeping their backgrounds*/
@@ -31,14 +31,13 @@ a{
 .quote,
 .sign-up_2,
 .footer {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header,
-.footer,
 .sign-up{
-    background-color: #4c5b81;
+    background-color: #f8d8b1;
 }
 
 .header{
@@ -57,13 +56,15 @@ a{
 .logo{    
     flex: 1;
 }
-
+ 
+.logo a,
 .logo img{
     max-width: 50px;
     height: auto;
 }
 
 .logo,
+.logo a,
 .links{
     display: flex;
 }
@@ -72,12 +73,13 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 18px;
 }
 
 .welcome{
     max-width: 500px;
     gap: 16px;
-    color: #f0f0f0;
+    color: #b68272;
 }
 
 h1{
@@ -107,22 +109,87 @@ h3{
 }
 
 button{
+    border: 2px solid  #ffffff;
+    border-radius: 20px;
     padding: 8px;
-    background-color: transparent;
+    background-color: #ffffff;
     width: 160px;
     font-size: 14px;
+    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a40000;
+    font-weight: 700;
 }
 
 .neco1 img{
     display: flex;
     flex: 1 1 auto;
-    max-height: 400px;
+    max-height: 365px;
     width: auto;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #ffffff;
+    padding: 40px 0px;
+    gap: 12px;
+}
+
+.info_title,
+.block{
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #65696d;
+}
+
+.info_title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.block img{
+    display: flex;
+    flex: 1 1 auto;
+    max-height: 250px;
+    width: auto;
+}
+
+.block .desc{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+}
 
 .quote{
-
+    background-color: #4c5b81;
+    display: flex;
+    flex: 1 1 auto;
+    height: 500px;
+    width: auto;
 }
 
 .sign-up_2{
@@ -130,11 +197,18 @@ button{
     margin: 50px;
     padding: 20px 40px;
     border-radius: 10px;
+    background-color: #4a4e51; 
 }
 
 .footer{
+    color: #ffffff;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    background-color: #5f504c;
+    flex: 1 1 auto;
+    padding: 20px;
 }
