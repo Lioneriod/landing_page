@@ -20,6 +20,8 @@ li,
 a{
     list-style-type: none;
     text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
     font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #b68272;
 }
@@ -164,7 +166,7 @@ button{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
 }
 
 .block img{
@@ -181,15 +183,58 @@ button{
     justify-content: center;
     text-align: center;
     font-size: 14px;
-    width: 200px;
+    width: 225px;
 }
 
 .quote{
     background-color: #4c5b81;
     display: flex;
     flex: 1 1 auto;
-    height: 500px;
+    height: 400px;
     width: auto;
+    gap: 10px;
+}
+
+.quote_body{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.quote_text em{
+    color: #ffffff;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_author{
+    color: #ffffff;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+
+.quote_img{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.quote_img img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    border-radius: 100%;
 }
 
 .sign-up_2{
