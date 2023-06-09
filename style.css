@@ -17,7 +17,7 @@ ol{
     gap: 24px;
 }
 li,
-a{
+li a{
     list-style-type: none;
     text-decoration: none;
     font-weight: 800;
@@ -84,16 +84,9 @@ a{
     color: #b68272;
 }
 
-h1{
+.welcome h1{
     font-size: 40px;
     font-weight: 900;
-}
-
-h3{
-    font-size: 18px;
-    font-weight: 900;
-    padding: 0;
-    margin: 0;
 }
 
 .text{
@@ -101,6 +94,13 @@ h3{
     flex-direction: column;
     gap: 16px;
     padding-bottom: 20px;
+}
+
+.text h3{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
 }
 
 .buttons{
@@ -239,23 +239,56 @@ h3{
 
 .sign-up2{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 200px;
-    width: 200px;
-    flex: 1 1 auto;
-    margin: 20px 40px;
-    padding: 20px 40px;
+    height: 250px;
+    flex: 1;
+    margin: 100px 220px;
+    padding: 50px 30px;
     border-radius: 10px;
     background-color: #4a4e51; 
+    gap: 20px;
 }
 
 .sign-up2_text{
-
+    gap: 8px
 }
 
-.sign-up2 button{
+.sign-up2_text h3{
+    color: #ffffff;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 22px;
+}
 
+.sign-up2_text p{
+    color: #ffffff;
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+
+
+.sign-up2 button{
+    border: 2px solid  #f8d8b1;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #f8d8b1;
+    height: 60px;
+    width: auto;
+    font-size: 15px;
+    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+
+.sign-up2 button a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #4a4e51;
 }
 
 .footer{
