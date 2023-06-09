@@ -239,12 +239,12 @@ li a{
 
 .sign-up2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 250px;
     flex: 1;
     margin: 100px 220px;
-    padding: 50px 30px;
+    padding: 50px 65px;
     border-radius: 10px;
     background-color: #4a4e51; 
     gap: 20px;
